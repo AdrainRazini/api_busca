@@ -7,7 +7,7 @@ import { createServerlessHandler } from 'vercel-express';
 const app = express();
 app.use(cors());
 
-const apiKey = 'sua-api-key';
+const apiKey = 'ee951cec5f872915d77d6ae8722f57de';
 
 app.get('/api/buscar', async (req, res) => {
   const nome = req.query.nome;
