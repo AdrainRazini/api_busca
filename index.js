@@ -6,7 +6,7 @@ import cors from 'cors';
 const app = express();
 app.use(cors());
 
-const apiKey = 'ee951cec5f872915d77d6ae8722f57de';
+const apiKey = '6355a7fc9a5032f5a3c1df7e6044dea2';
 const cache = new Map();
 
 // Função que tenta acesso direto, se falhar usa ScraperAPI
